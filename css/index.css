@@ -13,17 +13,6 @@
   font-size: 1.25rem;
   background-size: 220%;
 }
-.button3 {
-  background: none;
-  border: 3px solid #05ac50;
-  box-shadow: 1px 3px rgba(211, 211, 211, 0.438);
-  color: #05ac50;
-  font-size: 1rem;
-  padding: 10px 30px;
-}
-.button3:hover {
-  font-size: 1.25rem;
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -362,4 +351,68 @@ header .cta-main-container .buttons .round-button:hover {
   .info .info-box img {
     width: 30%;
   }
+}
+.form-container {
+  width: 50%;
+  margin: 5% auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container h2 {
+  font-size: 2rem;
+}
+.form-container p {
+  margin: 3%;
+}
+.form-container form {
+  padding: 3% 10% 5%;
+  background-color: rgba(28, 167, 28, 0.363);
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  font-family: 'Raleway', sans-serif;
+}
+.form-container form input {
+  border-radius: 10px;
+  padding: 5px;
+  border: 0.5px solid lightgreen;
+}
+.form-container form input[type=submit] {
+  margin-top: 3%;
+  background: none;
+  border: 3px solid #05ac50;
+  box-shadow: 1px 3px rgba(211, 211, 211, 0.438);
+  color: #05ac50;
+  font-size: 1rem;
+  padding: 10px 30px;
+  background-color: white;
+}
+.form-container form input[type=submit]:hover {
+  font-size: 1.25rem;
+}
+.form-container form textarea {
+  margin-top: 5%;
+  width: 70%;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 15px;
+  padding: 5px;
+}
+.form-container form select {
+  border-radius: 10px;
+  padding: 5px;
+  border: 0.5px solid lightgreen;
+  padding: 1%;
+}
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

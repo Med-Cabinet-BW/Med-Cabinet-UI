@@ -411,7 +411,7 @@ header .cta-main-container .buttons .round-button:hover {
   position: relative;
   min-height: 100vh;
 }
-footer {
+.page-container footer {
   position: absolute;
   bottom: 0;
   width: 100%;

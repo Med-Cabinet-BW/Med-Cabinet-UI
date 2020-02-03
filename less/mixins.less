@@ -1,3 +1,4 @@
+//Add flexbox to a parent; default at center and row
 .customFlex(@justify-content:center, @flex-direction:row){
     display: flex;
     flex-direction: @flex-direction;
@@ -5,6 +6,7 @@
     align-items: center;
 }
 
+//Styling for round buttons
 .button2{
     background: @btnGradient;
     background-size: 400%;
@@ -13,7 +15,6 @@
     box-shadow: @boxShadow;
     color: @btn1Text;
     font-size: 1.2rem;
-    // padding: @btnPadding;
     padding: 10px;
     width: 50%;
     &:hover{
@@ -22,6 +23,7 @@
     }
 }
 
+//Styling for square buttons
 .button3{
     background: none;
     border: 3px solid @btn1Color;

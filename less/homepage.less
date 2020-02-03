@@ -1,13 +1,16 @@
+//Header Styles
 header{
     margin: 2% auto;
     width: 90%;
     border: 1px solid lightgray;
     box-shadow: 1px 2px 1px rgba(95, 95, 95, 0.459);
     .customFlex(@justify-content: space-evenly);
+    //Make imgs appropriate size
     img{
         width: 45%;
         height: 90%;
     }
+    //Header inner-container styles
     .cta-main-container{
         padding: 15px;
         .customFlex(@justify-content:center, @flex-direction:column);
@@ -29,6 +32,7 @@ header{
             };
         }
     }
+    //Media query for header at phone width
     @media @phone{
         flex-direction: column;
         img{
@@ -48,16 +52,18 @@ header{
     }   
 }
 
-
+//Styles for the info part of the homepage
 .info{
     margin-top: 5%;
     .customFlex(@justify-content:space-evenly);
+    //Styles for the boxes in the info part
     .info-box{
         border: 1px solid lightgray;
         box-shadow: 1px 3px 1px rgba(211, 211, 211, 0.589);
         width: 23%;
         height: 500px;
         .customFlex(@flex-direction:column, @justify-content: space-evenly);
+        //Resize imgs appropriately
         img{
             width: 35%;
             margin: 5%;
@@ -76,6 +82,7 @@ header{
             text-align: center;
         }
     }
+    //Media query to switch to column view on small screens
     @media @phone{
         flex-direction: column;
         .info-box{

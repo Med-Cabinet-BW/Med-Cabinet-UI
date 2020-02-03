@@ -1,5 +1,5 @@
 .button2 {
-  background: linear-gradient(135deg, #01a8c1 0%, #2adbf7 50%, #00b5d1 51%, #0aafc9 71%, #0599b1 100%);
+  background: linear-gradient(135deg, #05ac50 0%, #21dd72 50%, #05c44e 51%, #05ac50 71%, #05ac50 100%);
   background-size: 400%;
   border: none;
   border-radius: 25px;
@@ -15,9 +15,9 @@
 }
 .button3 {
   background: none;
-  border: 3px solid #187795;
+  border: 3px solid #05ac50;
   box-shadow: 1px 3px rgba(211, 211, 211, 0.438);
-  color: #187795;
+  color: #05ac50;
   font-size: 1rem;
   padding: 10px 30px;
 }
@@ -173,7 +173,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(135deg, #01a8c1 0%, #2adbf7 50%, #00b5d1 51%, #0aafc9 71%, #0599b1 100%);
+  background: linear-gradient(135deg, #05ac50 0%, #21dd72 50%, #05c44e 51%, #05ac50 71%, #05ac50 100%);
   background-size: 210%;
   padding: 10px;
   box-shadow: 1px 3px rgba(211, 211, 211, 0.438);
@@ -186,7 +186,7 @@ nav .logo {
   align-items: center;
 }
 nav .logo img {
-  max-width: 40px;
+  max-width: 50px;
   margin-left: 15px;
   border: 2px solid white;
   border-radius: 10px;
@@ -194,10 +194,11 @@ nav .logo img {
 nav .logo h1 {
   font-size: 2rem;
   align-self: flex-end;
+  color: white;
 }
 nav a {
   padding: 15px 25px;
-  color: black;
+  color: white;
 }
 @media (max-width: 600px) {
   nav {
@@ -220,10 +221,16 @@ nav a {
   }
 }
 footer {
-  background: linear-gradient(135deg, #01a8c1 0%, #2adbf7 50%, #00b5d1 51%, #0aafc9 71%, #0599b1 100%);
+  background: linear-gradient(135deg, #05ac50 0%, #21dd72 50%, #05c44e 51%, #05ac50 71%, #05ac50 100%);
   background-size: 210%;
-  margin-top: 10%;
+  margin-top: 5%;
   height: 50px;
+  text-align: center;
+  color: white;
+}
+footer p {
+  font-size: 1.3rem;
+  padding-top: 15px;
 }
 header {
   margin: 2% auto;
@@ -237,7 +244,7 @@ header {
 }
 header img {
   width: 45%;
-  height: 100%;
+  height: 90%;
 }
 header .cta-main-container {
   padding: 15px;
@@ -263,7 +270,7 @@ header .cta-main-container .buttons {
   align-items: center;
 }
 header .cta-main-container .buttons .round-button {
-  background: linear-gradient(135deg, #01a8c1 0%, #2adbf7 50%, #00b5d1 51%, #0aafc9 71%, #0599b1 100%);
+  background: linear-gradient(135deg, #05ac50 0%, #21dd72 50%, #05c44e 51%, #05ac50 71%, #05ac50 100%);
   background-size: 400%;
   border: none;
   border-radius: 25px;
@@ -313,19 +320,20 @@ header .cta-main-container .buttons .round-button:hover {
   align-items: center;
 }
 .info .info-box img {
-  width: 50%;
+  width: 35%;
   margin: 5%;
 }
 .info .info-box h3 {
   margin: 5% auto;
   font-size: 1.5rem;
+  text-align: center;
 }
 .info .info-box .square-button {
   margin: 5% 0;
   background: none;
-  border: 3px solid #187795;
+  border: 3px solid #05ac50;
   box-shadow: 1px 3px rgba(211, 211, 211, 0.438);
-  color: #187795;
+  color: #05ac50;
   font-size: 1rem;
   padding: 10px 30px;
 }
@@ -334,6 +342,7 @@ header .cta-main-container .buttons .round-button:hover {
 }
 .info .info-box p {
   width: 90%;
+  text-align: center;
 }
 @media (max-width: 600px) {
   .info {
@@ -347,10 +356,10 @@ header .cta-main-container .buttons .round-button:hover {
     width: 70%;
   }
   .info .info-box p {
-    width: 80%;
+    width: 78%;
     text-align: center;
   }
   .info .info-box img {
-    width: 40%;
+    width: 30%;
   }
 }

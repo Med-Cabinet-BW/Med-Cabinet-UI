@@ -1,0 +1,94 @@
+header{
+    margin: 2% auto;
+    width: 90%;
+    border: 1px solid lightgray;
+    box-shadow: 1px 2px 1px rgba(95, 95, 95, 0.459);
+    .customFlex(@justify-content: space-evenly);
+    img{
+        width: 45%;
+        height: 100%;
+    }
+    .cta-main-container{
+        padding: 15px;
+        .customFlex(@justify-content:center, @flex-direction:column);
+        h2{
+            font-size: 2rem;
+            margin-bottom: 5%;
+            text-align: center;
+        }
+        .cta-copy{
+            width: 70%;
+            text-align: center;
+        }
+        .buttons{
+            width: 100%;
+            .customFlex(@justify-content:center);
+            .round-button{
+                .button2();
+                margin: 5%;
+            };
+        }
+    }
+    @media @phone{
+        flex-direction: column;
+        img{
+            width: 100%;
+        }
+        .cta-main-container{
+            .cta-copy{
+                width: 90%;
+            }
+            .buttons{
+                flex-direction: column;
+                .round-button{
+                    width: 90%;
+                }
+            }
+        }
+    }   
+}
+
+
+.info{
+    margin-top: 5%;
+    .customFlex(@justify-content:space-evenly);
+    .info-box{
+        border: 1px solid lightgray;
+        box-shadow: 1px 3px 1px rgba(211, 211, 211, 0.589);
+        width: 23%;
+        height: 500px;
+        .customFlex(@flex-direction:column, @justify-content: space-evenly);
+        img{
+            width: 50%;
+            margin: 5%;
+        }
+        h3{
+            margin: 5% auto;
+            font-size: 1.5rem;
+        }
+        .square-button{
+            margin: 5% 0;
+            .button3();
+        }
+        p{
+            width: 90%;
+        }
+    }
+    @media @phone{
+        flex-direction: column;
+        .info-box{
+            width: 90%;
+            margin: 5% auto;
+            .square-button{
+                width: 70%;
+            }
+            p{
+                width: 80%;
+                text-align: center;
+            }
+            img{
+                width: 40%;
+            }
+        }
+    }
+}

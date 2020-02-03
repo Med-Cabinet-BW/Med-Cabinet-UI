@@ -1,0 +1,120 @@
+header{
+    margin: 2% auto;
+    width: 90%;
+    border: 1px solid lightgray;
+    box-shadow: 1px 2px 1px rgba(95, 95, 95, 0.459);
+    .customFlex(@justify-content: space-evenly);
+    img{
+        width: 45%;
+        height: 100%;
+    }
+    .cta-main-container{
+        padding: 15px;
+        .customFlex(@justify-content:center, @flex-direction:column);
+        h2{
+            font-size: 2rem;
+            margin-bottom: 5%;
+            text-align: center;
+        }
+        .cta-copy{
+            width: 70%;
+            text-align: center;
+        }
+        .buttons{
+            width: 100%;
+            .customFlex(@justify-content:center);
+            .round-button{
+                .button2();
+                margin: 5%;
+            };
+        }
+    }
+    @media @phone{
+        flex-direction: column;
+        img{
+            width: 100%;
+        }
+        .cta-main-container{
+            .cta-copy{
+                width: 90%;
+            }
+            .buttons{
+                flex-direction: column;
+                .round-button{
+                    width: 90%;
+                }
+            }
+        }
+    }   
+}
+
+.Aboutheader {
+    width: 123.3%;
+    margin-top: -10%;
+    
+    margin-bottom: 10%;
+    background-color: rgba(212, 219, 211, 0.70);
+    opacity: 10;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 180%;
+    display:flex;
+    justify-content: center;
+}
+body {
+    background-image: url("/Users/manuelvega/Desktop/LambdaProjects/Med-Cabinet-UI/img/photo-1523246224990-496e9a19113a.jpg");
+    background-color: #cccccc;
+   }
+   #chgtext {
+    width: 50%;
+    margin-right: 10%;
+    margin-left: 7%;
+    margin-top: 2%;
+    background-color:rgba(212, 219, 211, 0.70);
+    
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 180%;
+    display:flex;
+    justify-content: center;
+   }
+    .parent {
+    margin-top: 5%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+   }
+   .Abouttext {
+    
+    margin-left: 0%; 
+    width:100%;
+    background-color:rgba(212, 219, 211, 0.85) ;
+    font-style: @copyFont;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 180%;
+    display:flex;
+    justify-content: center;
+    font-family: 'Patua One', cursive;
+   }
+  
+  
+   .middlecontent {
+       padding: 2%;
+       background: rgba(95, 95, 95, 0.459);
+       display: flex;
+       flex-direction: row-reverse;
+       margin-top: 2%;
+       font-family: 'Patua One', cursive;
+   }
+   h2 {
+    font-style: 'Patua One', cursive !important;
+    color: white;
+    opacity: 10;
+}
+p {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Patua One', cursive;
+    color: black;
+} 

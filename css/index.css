@@ -311,6 +311,7 @@ header .cta-main-container .buttons .round-button:hover {
 .info .info-box img {
   width: 35%;
   margin: 5%;
+  border-radius: 20px;
 }
 .info .info-box h3 {
   margin: 5% auto;

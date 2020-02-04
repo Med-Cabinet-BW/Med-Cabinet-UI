@@ -1,0 +1,43 @@
+//Add flexbox to a parent; default at center and row
+.customFlex(@justify-content:center, @flex-direction:row){
+    display: flex;
+    flex-direction: @flex-direction;
+    justify-content: @justify-content;
+    align-items: center;
+}
+
+//Styling for round buttons
+.button2{
+    background: @btnGradient;
+    background-size: 400%;
+    border: none;
+    border-radius: 25px;
+    box-shadow: @boxShadow;
+    color: @btn1Text;
+    font-size: 1.2rem;
+    padding: 10px;
+    width: 50%;
+    &:hover{
+        font-size: 1.25rem;
+        background-size: 220%;
+    }
+}
+
+//Styling for square buttons
+.button3(){
+    background: none;
+    border: 3px solid @btn1Color;
+    box-shadow: @boxShadow;
+    color: @btn1Color;
+    font-size: 1rem;
+    padding: 10px 30px;
+    &:hover{
+        font-size: 1.25rem;
+    }
+}
+
+.formStyles(){
+    border-radius: 10px;
+    padding: 5px;
+    border: .5px solid lightgreen;
+}

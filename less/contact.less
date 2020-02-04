@@ -23,6 +23,15 @@
                 margin-top: 3%;
                 .button3();
                 background-color: white;
+                @media @phone{
+                    width: 90%;
+                }
+            }
+            &[type=text], &[type=email]{
+                width: 70%;
+                @media @phone{
+                    width: 90%;
+                }
             }
         }
         textarea{
@@ -31,12 +40,18 @@
             font-family: @copyFont;
             border-radius: 15px;
             padding: 5px;
+            @media @phone{
+                width: 90%;
+            }
             
         }
         select{
             .formStyles();
             padding: 1%;
         }
+    }
+    @media @phone{
+        width: 90%;
     }
 }
 .page-container{
@@ -46,6 +61,10 @@
     position: absolute;
     bottom: 0;
     width: 100%;
+    @media @phone{
+        display: none;
     }
+    }
+    
     
 }

@@ -189,8 +189,8 @@ nav a {
   padding: 15px 25px;
   color: white;
 }
-nav .icon {
-  display: none;
+nav a:hover {
+  font-size: 1.3rem;
 }
 @media (max-width: 600px) {
   nav {

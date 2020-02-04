@@ -13,6 +13,7 @@
   font-size: 1.25rem;
   background-size: 220%;
 }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -145,7 +146,6 @@ table {
   box-sizing: border-box;
 }
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -212,14 +212,6 @@ nav a {
 footer {
   background: linear-gradient(135deg, #05ac50 0%, #21dd72 50%, #05c44e 51%, #05ac50 71%, #05ac50 100%);
   background-size: 210%;
-  margin-top: 5%;
-  height: 50px;
-  text-align: center;
-  color: white;
-}
-footer p {
-  font-size: 1.3rem;
-  padding-top: 15px;
 }
 header {
   margin: 2% auto;
@@ -233,7 +225,6 @@ header {
 }
 header img {
   width: 45%;
-  height: 90%;
 }
 header .cta-main-container {
   padding: 15px;
@@ -290,129 +281,4 @@ header .cta-main-container .buttons .round-button:hover {
   header .cta-main-container .buttons .round-button {
     width: 90%;
   }
-}
-.info {
-  margin-top: 5%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.info .info-box {
-  border: 1px solid lightgray;
-  box-shadow: 1px 3px 1px rgba(211, 211, 211, 0.589);
-  width: 23%;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.info .info-box img {
-  width: 35%;
-  margin: 5%;
-}
-.info .info-box h3 {
-  margin: 5% auto;
-  font-size: 1.5rem;
-  text-align: center;
-}
-.info .info-box .square-button {
-  margin: 5% 0;
-  background: none;
-  border: 3px solid #05ac50;
-  box-shadow: 1px 3px rgba(211, 211, 211, 0.438);
-  color: #05ac50;
-  font-size: 1rem;
-  padding: 10px 30px;
-}
-.info .info-box .square-button:hover {
-  font-size: 1.25rem;
-}
-.info .info-box p {
-  width: 90%;
-  text-align: center;
-}
-@media (max-width: 600px) {
-  .info {
-    flex-direction: column;
-  }
-  .info .info-box {
-    width: 90%;
-    margin: 5% auto;
-  }
-  .info .info-box .square-button {
-    width: 70%;
-  }
-  .info .info-box p {
-    width: 78%;
-    text-align: center;
-  }
-  .info .info-box img {
-    width: 30%;
-  }
-}
-.form-container {
-  width: 50%;
-  margin: 5% auto;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.form-container h2 {
-  font-size: 2rem;
-}
-.form-container p {
-  margin: 3%;
-}
-.form-container form {
-  padding: 3% 10% 5%;
-  background-color: rgba(28, 167, 28, 0.363);
-  border-radius: 10px;
-  text-align: center;
-  line-height: 1.5rem;
-  font-size: 1.1rem;
-  font-family: 'Raleway', sans-serif;
-}
-.form-container form input {
-  border-radius: 10px;
-  padding: 5px;
-  border: 0.5px solid lightgreen;
-}
-.form-container form input[type=submit] {
-  margin-top: 3%;
-  background: none;
-  border: 3px solid #05ac50;
-  box-shadow: 1px 3px rgba(211, 211, 211, 0.438);
-  color: #05ac50;
-  font-size: 1rem;
-  padding: 10px 30px;
-  background-color: white;
-}
-.form-container form input[type=submit]:hover {
-  font-size: 1.25rem;
-}
-.form-container form textarea {
-  margin-top: 5%;
-  width: 70%;
-  font-family: 'Roboto', sans-serif;
-  border-radius: 15px;
-  padding: 5px;
-}
-.form-container form select {
-  border-radius: 10px;
-  padding: 5px;
-  border: 0.5px solid lightgreen;
-  padding: 1%;
-}
-.page-container {
-  position: relative;
-  min-height: 100vh;
-}
-.page-container footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }

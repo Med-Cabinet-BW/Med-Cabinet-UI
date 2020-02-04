@@ -224,6 +224,25 @@ footer p {
   font-size: 1.3rem;
   padding-top: 15px;
 }
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+.page-container footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  .page-container footer {
+    display: none;
+  }
+}
+@media (max-height: 675px) {
+  .page-container footer {
+    display: none;
+  }
+}
 header {
   margin: 2% auto;
   width: 90%;
@@ -423,7 +442,7 @@ header .cta-main-container .buttons .round-button:hover {
 }
 .form-container {
   width: 50%;
-  margin: 5% auto;
+  margin: 4% auto;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -499,19 +518,5 @@ header .cta-main-container .buttons .round-button:hover {
 @media (max-width: 600px) {
   .form-container {
     width: 90%;
-  }
-}
-.page-container {
-  position: relative;
-  min-height: 100vh;
-}
-.page-container footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-@media (max-width: 600px) {
-  .page-container footer {
-    display: none;
   }
 }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='css/about.css'>
+    <title>Med Cabinet</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>bestBud</h1>
+            <img src='img/MedicalMarijuana.jpg'>
+        </div>
+        <div class="nav-links">
+            <a href="#">Login</a>
+            <a href='#'>Sign Up</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+    <div class="middlecontent">
+    
+    <div id="chgtext">This is my current text</div>
+    <div class="parent"><div class=Aboutheader>
+    <h2>About Us</h2>
+    </div>
+    <a class=Abouttext href="#" onclick="changeText('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pretium euismod ipsum non consequat. Suspendisse consequat blandit mi, ut sollicitudin erat sollicitudin eu. Sed elementum enim nec ex ultricies, sed posuere augue fringilla. Nulla porttitor mi quis pretium aliquam.<br> Maecenas at turpis id tortor porta tincidunt sit amet eget nulla. Nullam finibus ante a purus varius maximus. Vivamus aliquet volutpat molestie. Suspendisse potenti. Aenean ut tincidunt enim. Cras porttitor dui quis dolor efficitur efficitur. Proin dapibus nec dui condimentum imperdiet. Aenean molestie nisi id tellus pharetra accumsan. Morbi tincidunt nulla ac dolor aliquet, id luctus nisl aliquam. Etiam ac nisi ut neque pellentesque volutpat ut ac arcu. Cras sit amet egestas orci. Donec placerat risus sed tortor gravida faucibus.Aliquam erat volutpat. Pellentesque metus est, sollicitudin eu sollicitudin efficitur, fermentum et mauris. Proin feugiat, lorem non finibus ultricies, lacus lacus placerat sem, ac imperdiet ligula sem id sapien. Donec et ligula eros. Praesent luctus lorem eu risus tincidunt sollicitudin scelerisque eu ex. Donec vitae ornare urna, vitae aliquet metus. In euismod luctus dui, vitae tristique massa tempus in. Suspendisse ultrices id justo ut tempus. Nulla semper sed mauris vel consectetur. Donec interdum ultrices nisi, sit amet pharetra nulla feugiat at. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.')"><p class=buttons>What we do</p></a> &nbsp; &nbsp;
+    <a class=Abouttext href="#" onclick="changeText('Text will be changed based on the other text')"><p class=buttons>Why we do it</p></a>&nbsp;  &nbsp;
+    <a class=Abouttext href="#" onclick="changeText('This is another sample changed text on click the onther text')"><p class=buttons>What to expect</p></a>&nbsp;  &nbsp;
+</div>
+</div>
+<script>
+
+    function changeText(text) {
+
+document.getElementById('chgtext').innerHTML = text;
+
+}
+
+</script>    
+   
+    <footer>
+        <p>Yo</p>
+    </footer>
+</body>
+</html>

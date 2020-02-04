@@ -1,0 +1,43 @@
+nav{
+    .customFlex(@justify-content:space-between);
+    background: @btnGradient;
+    background-size: 210%;
+    padding: 10px;
+    box-shadow: @boxShadow;
+    align-items: flex-end;
+    .logo{
+        .customFlex();
+        img{
+            max-width: 50px;
+            margin-left: 15px;
+            border: 2px solid white;
+            border-radius: 10px;
+        
+        }
+        h1{
+            font-size: 2rem;
+            align-self: flex-end;
+            color: white;
+        }
+    }
+    a{
+        padding: 15px 25px;
+        color: white;
+    }
+    @media @phone{
+        flex-direction: column;
+        background-size: 220%;
+        align-items: center;
+        .logo{
+            margin-bottom: 5%;
+            // align-self: center;
+        }
+        .nav-links{
+            width: 100%;
+            .customFlex(@justify-content: space-between);
+            a{
+                padding: 5px 10px;
+            }
+        }
+    }
+}

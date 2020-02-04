@@ -319,9 +319,9 @@ body {
   width: 50%;
   margin-right: 10%;
   margin-left: 7%;
-  margin-top: 5%;
+  margin-top: 2%;
   background-color: rgba(212, 219, 211, 0.7);
-  padding-top: 3%;
+  padding-top: 1%;
   padding-bottom: 3%;
   font-size: 180%;
   display: flex;
@@ -350,7 +350,7 @@ body {
   background: rgba(95, 95, 95, 0.459);
   display: flex;
   flex-direction: row-reverse;
-  margin-top: 20%;
+  margin-top: 3% ;
   font-family: 'Patua One', cursive;
 }
 h2 {

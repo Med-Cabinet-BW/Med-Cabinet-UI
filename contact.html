@@ -27,12 +27,12 @@
         <div class='form-container'>
             <h2>Contact Us</h2>
             <p>Still have questions? Want to know more? Have a suggestion? Fill out this form and we'll be in touch!</p>
-            <form>
-                Name:<br>
+            <form name='contact' method='POST' data-netlify="true">
+                Name:<br> 
                 <input type='text' name='name'><br>
                 Email:<br>
                 <input type='email' name='email'><br>
-                <textarea id="subject" name="subject" placeholder="What do you want us to know?" style="height:200px"></textarea><br>
+                <textarea name="subject" placeholder="What do you want us to know?" style="height:200px"></textarea><br>
                 <input type="checkbox" name='subscribe'>
                 Check this box to subscribe to our newsletter!<br>
                 <input type='submit'>

@@ -1,47 +1,75 @@
 .Aboutheader {
-    width: 123.4%;
+    width: 140%;
     margin-top: -10%;
     
-    margin-bottom: 10%;
+    margin-bottom: 2%;
     background-color: rgba(212, 219, 211, 0.70);
     opacity: 10;
-    padding-top: 3%;
+    padding-top: 8%;
     padding-bottom: 3%;
     font-size: 180%;
     display:flex;
     justify-content: center;
 }
 .about-body-container {
-    background-image: url("/Users/manuelvega/Desktop/LambdaProjects/Med-Cabinet-UI/img/photo-1523246224990-496e9a19113a.jpg");
-    background-color: #cccccc;
+    background-image: url("/Users/manuelvega/Desktop/LambdaProjects/Med-Cabinet-UI/img/photo-1523246224990-496e9a19113a.jpg")!important;
+    //background-color: #cccccc;
 
    #chgtext {
+    
+    box-shadow:@shdw1;
     width: 50%;
     margin-right: 10%;
     margin-left: 7%;
     margin-top: 2%;
     background-color:rgba(212, 219, 211, 0.70);
-    
-    padding-top: 1%;
+    font-family: 'Patua One', cursive!important;
+    padding-top: 5%;
     padding-bottom: 3%;
     font-size: 180%;
     display:flex;
     justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
    }
     .parent {
+        position: relative;
+    left: -5%;
+    top:-2%;
     margin-top: 5%;
     width: 30%;
     display: flex;
     flex-direction: column;
+    .firsttwo {
+        display: flex;
+        padding-bottom: 3%;
+        font-size: 8.5px;
+    }
+    .secondtwo {
+        display: flex;
+        padding-bottom: 3%;
+        font-size: 7.8px;
+    }
+    .first2 {
+    display: flex;
+    padding-bottom: 3%;
+    font-size: 7.6px;
+}
+    .lastone {
+     color: whitesmoke;
+    width: 99%;
+    }
    }
    .Abouttext {
-    
-    margin-left: 0%; 
+       line-height: 120%;
+    box-shadow: @shdw1;
+    padding-right: 10%;
+    padding-left: 3%; 
     width:100%;
     background-color:rgba(212, 219, 211, 0.85) ;
-    font-style: @copyFont;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    color: currentColor;
+    padding-top: 4%;
+    padding-bottom: 4%;
     font-size: 180%;
     display:flex;
     justify-content: center;
@@ -57,15 +85,30 @@
        margin-top: 3% ;
        font-family: 'Patua One', cursive;
    }
-   h2 {
-    font-style: 'Patua One', cursive !important;
+   #about {
+    font-family: 'Patua One', cursive;
     color: white;
     opacity: 10;
-    p {
+    .buttons {
         padding-top: 5%;
         padding-bottom: 5%;
-        font-family: 'Patua One', cursive;
+        font-family: unset;
         color: black;
     } 
+    
+    .secondtwo {
+        display: flex;
+    }
 }
+.picture1 {
+    box-shadow: @shdw1;
+       height: 50%;
+        width:40%;
+        border-right: black solid 2px;
+
+    }
+   .Abouttext:hover  {
+     
+        background-color: purple;
+        color: whitesmoke;}
 }

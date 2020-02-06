@@ -28,13 +28,20 @@
             <h2>Contact Us</h2>
             <p>Still have questions? Want to know more? Have a suggestion? Fill out this form and we'll be in touch!</p>
             <form name='contact' method='POST' data-netlify="true">
-                Name:<br> 
-                <input type='text' name='name' label='name'><br>
-                Email:<br>
-                <input type='email' name='email' label='email'><br>
-                <textarea name="subject" placeholder="What do you want us to know?" style="height:200px" label='message'></textarea><br>
-                <input type="checkbox" name='subscribe' label='subscribe checkbox'>
-                Check this box to subscribe to our newsletter!<br>
+                <label>Name:<br> 
+                    <input type='text' name='name'><br>
+                </label>
+                <label>
+                    Email:<br>
+                    <input type='email' name='email'><br>
+                </label>
+                <label>
+                    <textarea name="subject" placeholder="What do you want us to know?" style="height:200px"></textarea><br>
+                </label>
+                <label>
+                    <input type="checkbox" name='subscribe'>
+                    Check this box to subscribe to our newsletter!<br>
+                </label>
                 <input type='submit'>
             </form>
         </div>

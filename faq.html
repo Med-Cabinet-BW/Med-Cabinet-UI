@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='css/index.css'>
     <title>bestBud</title>
     <link rel='icon' href='img/MedicalMarijuana.jpg' type='image/x-icon'>
 </head>
-<body>
+<body class='faq-body-container'>
     <nav>
         <div class="logo">
             <h1>bestBud</h1>
@@ -19,13 +21,46 @@
             <a href='index.html'>Home</a>
             <a href="#">Login</a>
             <a href='#'>Sign Up</a>
-            <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
+            <a href="faq.html">FAQ</a>
         </div>
     </nav>
+    <div class="faqmiddlecontent">
+    
+    <div id="faqchgtext">This is my current text</div>
+    <div class="faqparent"><div class=faqheader>
+    <h2 id="faq">FAQ</h2>
+    </div>
 
+    <span class="Questions">
+        <a class=Abouttext href="#" onclick="changeText('Im Miguel and Im from New Jersey. I enjoy working with React, styled-components, and Postgres. My hobbies include fishing, PC gaming, and more recently, building custom keyboards. I would be fine with eating Chipotle everyday for the rest of my life.')">-> How can bestBud <br>help me?</a> &nbsp; &nbsp;
+        <a class=Abouttext href="#" onclick="changeText('Im Julie, and Im from Northern California. Before Lambda School, I am a SAS programmer.  I am enjoying studying coding, modeling and cooking. I don’t believe in skills. Passion is my thing!')">Important questions</a>&nbsp;  &nbsp;
+  
 
+   
+        <a class=Abouttext href="#" onclick="changeText('Im Maggie, and am a Colorado Native. I am eagerly studying Data Science. In my spare time I enjoy films, crafting, and am training for my first (and probably last) marathon. I also have a dog, Crosby who Im obsessed with.')">Important questions</a> &nbsp; &nbsp;
+        <a class=Abouttext href="#" onclick="changeText('I’m Lori, and I’m excited to have contributed as a Data Engineer to my first cross-functional team project. Before Lambda School, I worked in the nonprofit world with sexual assault survivors, so I’m always looking for ways to make a real human impact with my time and skills. I will invariably laugh at dad jokes, and I was once told that 1/8 of my personality is comprised of my love of peanut butter.')">Important questions</a> &nbsp; &nbsp;
+    
+    
+        <a class=Abouttext href="#" onclick="changeText('Text will be changed based on the other text')">important questions</a>&nbsp;  &nbsp;
+        <a class=Abouttext href="#" onclick="changeText('Text will be changed based on the other text')">important questions</a>&nbsp;  &nbsp;
+    </span>
 
+   
+
+    
+</div>
+</div>
+<script>
+
+    function changeText(text) {
+
+document.getElementById('faqchgtext').innerHTML = text;
+
+}
+
+</script>    
+   
     <footer>
         <p>Copyright bestBud 2020</p>
     </footer>

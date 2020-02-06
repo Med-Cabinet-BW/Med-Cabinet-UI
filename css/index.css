@@ -343,9 +343,9 @@ header .cta-main-container .buttons .round-button:hover {
 .info .info-box .square-button {
   margin: 5% 0;
   background: none;
-  border: 3px solid #05ac50;
+  border: 3px solid #03632E;
   box-shadow: 1px 3px rgba(211, 211, 211, 0.438);
-  color: #05ac50;
+  color: #03632E;
   font-size: 1rem;
   padding: 10px 30px;
 }
@@ -513,9 +513,9 @@ header .cta-main-container .buttons .round-button:hover {
 .form-container form input[type=submit] {
   margin-top: 3%;
   background: none;
-  border: 3px solid #05ac50;
+  border: 3px solid #03632E;
   box-shadow: 1px 3px rgba(211, 211, 211, 0.438);
-  color: #05ac50;
+  color: #03632E;
   font-size: 1rem;
   padding: 10px 30px;
   background-color: white;

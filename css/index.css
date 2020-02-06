@@ -388,7 +388,7 @@ header .cta-main-container .buttons .round-button:hover {
   justify-content: center;
 }
 .about-body-container {
-  background-image: url("/Users/manuelvega/Desktop/LambdaProjects/Med-Cabinet-UI/img/photo-1523246224990-496e9a19113a.jpg") !important;
+  background-image: url("../img/photo-1523246224990-496e9a19113a.jpg") !important;
   background-color: black;
 }
 .about-body-container #chgtext {
@@ -496,8 +496,8 @@ header .cta-main-container .buttons .round-button:hover {
   border-radius: 7px;
 }
 .faq-body-container {
-  background-image: url("/Users/manuelvega/Desktop/LambdaProjects/Med-Cabinet-UI/img/top-view-photo-of-clover-leaves-158780.jpg") !important;
-  background-color: rgba(43, 226, 70, 0.448);
+  background-image: url("../img/top-view-photo-of-clover-leaves-158780.jpg") !important;
+  background-color: #3e7845;
 }
 .faq-body-container #faqchgtext {
   border-radius: 7px;

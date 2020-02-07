@@ -598,6 +598,7 @@ header .cta-main-container .buttons .round-button:hover {
   margin: 3%;
 }
 .form-container form {
+  width: 70%;
   padding: 3% 10% 5%;
   background-color: rgba(28, 167, 28, 0.363);
   border-radius: 10px;

@@ -589,6 +589,9 @@ header .cta-main-container .buttons .round-button:hover {
   .secondtwo {
     display: grid!important;
   }
+  .second2 {
+    display: grid!important;
+  }
 }
 .form-container {
   width: 50%;

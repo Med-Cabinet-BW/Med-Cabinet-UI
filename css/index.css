@@ -418,7 +418,7 @@ header .cta-main-container .buttons .round-button:hover {
 .about-body-container .parent .firsttwo {
   display: flex;
   padding-bottom: 3%;
-  font-size: 8.5px;
+  font-size: 8px;
 }
 .about-body-container .parent .secondtwo {
   display: flex;
@@ -429,6 +429,11 @@ header .cta-main-container .buttons .round-button:hover {
   display: flex;
   padding-bottom: 3%;
   font-size: 7.6px;
+}
+.about-body-container .parent .second2 {
+  display: flex;
+  padding-bottom: 3%;
+  font-size: 7px;
 }
 .about-body-container .parent .lastone {
   color: whitesmoke;
@@ -579,6 +584,12 @@ header .cta-main-container .buttons .round-button:hover {
     display: grid!important;
   }
   .first2 {
+    display: grid!important;
+  }
+  .secondtwo {
+    display: grid!important;
+  }
+  .second2 {
     display: grid!important;
   }
 }

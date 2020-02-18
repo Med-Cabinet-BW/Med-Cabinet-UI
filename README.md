@@ -13,7 +13,7 @@ The live website can be viewed at bestbudhome.netlify.com.
 
 ## Authors
 
-* **Sara Reidy** - *Homepage, Contact Form* - [PurpleBooth](https://github.com/reidysj)
+* **Sara Reidy** - *Homepage, Contact Form* - [Reidysj](https://github.com/reidysj)
 * **Manuel Vega** - *About Us Page, FAQ Page* - [ManuelVega138](https://github.com/manuelvega138)
 
 ## License
